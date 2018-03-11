@@ -1,0 +1,23 @@
+MySQL数据库的基本使用
+	
+	doc命令下登录
+		登录：mysql -uroot -p
+		退出：quit
+		结束：\c
+
+		清空：cls
+
+		查看数据库：
+		show database
+
+	--创建数据库：
+		create database 数据库名;
+		create database bbs;
+		--查看数据库
+		show database;
+		注意：';'为结束。
+	--删除数据库
+	drop database bbs;
+
+
+
